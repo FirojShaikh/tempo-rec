@@ -7,7 +7,7 @@ def create_vector_store(df):
     Create a Chroma vector store from product descriptions.
     """
     # Initialize Chroma client and collection
-    client = chromadb.Client()
+    client = chromadb.Client(settings=chromadb.config.Settings(persist_directory="chroma_data"))
     collection = client.get_or_create_collection(name="products_collection")
 
     # Load embedding model
