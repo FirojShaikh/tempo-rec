@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-11-24T20:59:50.631842",
+    "type": "typed_interest",
+    "value": "candle"
+  },
+  {
+    "timestamp": "2025-11-24T21:00:01.244785",
+    "type": "view_product",
+    "value": "12 egg house painted wood"
+  }
+]
